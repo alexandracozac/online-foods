@@ -1,0 +1,14 @@
+server.port: 8087
+
+spring:
+  jpa:
+    hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    generate-ddl: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/online_foods?serverTimezone=UTC
+    username: online_foods
+    password: online_foods
+
